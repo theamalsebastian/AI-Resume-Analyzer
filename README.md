@@ -1,24 +1,30 @@
 # 📄 AI Resume Analyzer
 
-An AI-powered web app that analyzes resumes against job descriptions, highlights missing skills, and simulates ATS scoring.
+A Streamlit web app that analyzes resumes, highlights strengths and weaknesses, and provides recruiter‑style feedback.  
+This project demonstrates **NLP, career tech, and web development skills**.
 
-## 🚀 Features
-- Upload resume (PDF)
-- Paste job description
-- Extract skills using NLP
-- ATS score simulation
-- Downloadable report
+---
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-- SpaCy
-- PyPDF2
+## 🚀 Live Demo
+👉 [Try the App](https://your-streamlit-app-link.streamlit.app)  
 
-## ⚡ Installation
+
+---
+
+## ✨ Features
+- 📂 Upload resumes in PDF format
+- 🔍 Extract text and analyze with SpaCy
+- 💡 Highlight skills, gaps, and suggestions
+- 📊 Recruiter‑style feedback summary
+- 🌐 Deployed free on Streamlit Cloud
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
+
 ```bash
 git clone https://github.com/theamalsebastian/AI-Resume-Analyzer.git
 cd AI-Resume-Analyzer
 pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-streamlit run app.py
